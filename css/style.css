@@ -5,9 +5,9 @@
   box-sizing: border-box;
 }
 .hero {
-  height: 100vh;
+  height: 75vh;
   width: 100%;
-  background-image: url(../img/background.jpg);
+  background-image: url(../img/bg5nff.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -26,7 +26,7 @@ nav {
   cursor: pointer;
 }
 span {
-  color: #f9004d;
+  color: #30415d;
 }
 nav ul li {
   list-style-type: none;
@@ -44,10 +44,10 @@ nav ul li a:hover {
   transition: 0.4s;
 }
 .btn {
-  background-color: #f9004d;
+  background-color: #007849;
   color: white;
   text-decoration: none;
-  border: 2px solid transparent;
+  border: 2px solid black;
   font-weight: bold;
   padding: 10px 25px;
   border-radius: 30px;
@@ -63,17 +63,17 @@ nav ul li a:hover {
   transform: translateY(-50%);
 }
 h1 {
-  color: white;
+  color: #262228;
   margin: 20px 0px 20px;
   font-size: 75px;
 }
 h3 {
-  color: white;
+  color: #0375b4;
   font-size: 25px;
   margin-bottom: 50px;
 }
 h4 {
-  color: #fcfc;
+  color: black;
   letter-spacing: 2px;
   font-size: 20px;
 }
@@ -86,7 +86,7 @@ h4 {
   display: inline-block;
   width: 100%;
   padding: 14px 130px 14px 15px;
-  border: 2px solid #f9004d;
+  border: 2px solid #30415d;
   outline: none;
   border-radius: 30px;
 }
@@ -97,7 +97,7 @@ h4 {
   border: none;
   padding: 10px 30px;
   border-radius: 30px;
-  background-color: #f9004d;
+  background-color: #007849;
   color: white;
   box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
   top: 6px;
@@ -107,7 +107,7 @@ h4 {
 .about {
   width: 100%;
   padding: 100px 0px;
-  background-color: #191919;
+  background-color: #caebf2;
 }
 .about img {
   height: auto;
@@ -125,27 +125,27 @@ h4 {
   justify-content: space-around;
 }
 .about-text h2 {
-  color: white;
+  color: #262228;
   font-size: 75px;
   text-transform: capitalize;
   margin-bottom: 20px;
 }
 .about-text h5 {
-  color: white;
+  color: #0375b4;
   letter-spacing: 2px;
   font-size: 22px;
   margin-bottom: 25px;
   text-transform: capitalize;
 }
 .about-text p {
-  color: #fcfc;
+  color: #007849;
   letter-spacing: 1px;
   line-height: 28px;
   font-size: 18px;
   margin-bottom: 45px;
 }
 button {
-  background-color: #f9004d;
+  background-color: #008f95;
   color: white;
   text-decoration: none;
   border: 2px solid transparent;
@@ -155,13 +155,13 @@ button {
   transition: 0.4s;
 }
 button:hover {
-  background-color: transparent;
-  border: 2px solid #f9004d;
+  background-color: black;
+  border: 2px solid white;
   cursor: pointer;
 }
 
 .service {
-  background: #101010;
+  background: #87b0ba;
   width: 100%;
   padding: 100px 0px;
 }
@@ -197,18 +197,19 @@ button:hover {
   color: #f9004d;
 }
 h5 {
-  color: white;
+  color: #0375b4;
   font-size: 23px;
   margin-bottom: 15px;
+  font-weight: bold;
 }
 .pra p {
-  color: #fcfc;
+  color: white;
   font-size: 16px;
   line-height: 27px;
   margin-bottom: 25px;
 }
 .card .button {
-  background-color: #f9004d;
+  background-color: #008f95;
   color: white;
   text-decoration: none;
   border: 2px solid transparent;
@@ -219,7 +220,7 @@ h5 {
 }
 .card .button:hover {
   background-color: transparent;
-  border: 2px solid #f9004d;
+  border: 2px solid white;
   cursor: pointer;
 }
 .contact-me {
@@ -238,7 +239,7 @@ h5 {
   margin-bottom: 25px;
 }
 .contact-me .button-two {
-  background-color: #f9004d;
+  background-color: #008f95;
   color: white;
   text-decoration: none;
   border: 2px solid transparent;
@@ -249,7 +250,7 @@ h5 {
 }
 .contact-me .button-two:hover {
   background-color: transparent;
-  border: 2px solid #f9004d;
+  border: 2px solid white;
   cursor: pointer;
 }
 footer {
@@ -268,8 +269,15 @@ footer p:nth-child(1) {
   margin-bottom: 20px;
   font-weight: bold;
 }
+footer p:nth-child(3) {
+  color: rgb(159, 41, 41);
+  font-size: 17px;
+  width: 500px;
+  text-align: center;
+  line-height: 26px;
+}
 footer p:nth-child(2) {
-  color: white;
+  color: rgb(159, 41, 41);
   font-size: 17px;
   width: 500px;
   text-align: center;
